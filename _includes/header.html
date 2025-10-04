@@ -18,6 +18,7 @@
   {% assign nav_label = 'グローバルナビゲーション' %}
   {% assign nav_toggle_label = 'ナビゲーションを開く' %}
   {% assign brand_alt = '神宮司明良のポートレート' %}
+  {% assign brand_label = '神宮司明良 (AKIRA JINGUJI)' %}
   {% assign other_lang_label = 'EN' %}
   {% assign other_lang_attr = 'en' %}
   {% assign lang_toggle_label = '言語切り替え' %}
@@ -27,6 +28,7 @@
   {% assign nav_label = 'Global navigation' %}
   {% assign nav_toggle_label = 'Toggle navigation' %}
   {% assign brand_alt = 'Portrait of Akira Jinguji' %}
+  {% assign brand_label = 'AKIRA JINGUJI' %}
   {% assign other_lang_label = 'JP' %}
   {% assign other_lang_attr = 'ja' %}
   {% assign lang_toggle_label = 'Language toggle' %}
@@ -35,7 +37,7 @@
       <div class="header-inner">
         <a class="brand" href="index.html">
           <img src="{{ include.asset_path }}/kaojyashin.jpg" alt="{{ brand_alt }}">
-          <span>神宮司明良 (AKIRA JINGUJI)</span>
+          <span>{{ brand_label }}</span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="{{ nav_toggle_label }}">
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
