@@ -1,0 +1,48 @@
+{% assign is_jp = include.lang == 'jp' %}
+{% if is_jp %}
+  {% assign nav_home = 'ホーム' %}
+  {% assign nav_publications = '業績一覧' %}
+  {% assign nav_label = 'グローバルナビゲーション' %}
+  {% assign nav_toggle_label = 'ナビゲーションを開く' %}
+  {% assign brand_alt = '神宮司明良のポートレート' %}
+  {% assign other_lang_label = 'EN' %}
+  {% assign other_lang_attr = 'en' %}
+  {% assign lang_toggle_label = '言語切り替え' %}
+{% else %}
+  {% assign nav_home = 'Home' %}
+  {% assign nav_publications = 'Publications' %}
+  {% assign nav_label = 'Global navigation' %}
+  {% assign nav_toggle_label = 'Toggle navigation' %}
+  {% assign brand_alt = 'Portrait of Akira Jinguji' %}
+  {% assign other_lang_label = 'JP' %}
+  {% assign other_lang_attr = 'ja' %}
+  {% assign lang_toggle_label = 'Language toggle' %}
+{% endif %}
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <img src="{{ include.asset_path }}/kaojyashin.jpg" alt="{{ brand_alt }}">
+          <span>神宮司明良 (AKIRA JINGUJI)</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="{{ nav_toggle_label }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path>
+          </svg>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="{{ nav_label }}">
+          <a href="index.html"{% if include.nav_current == 'index' %} aria-current="page"{% endif %}>{{ nav_home }}</a>
+          <a href="publications.html"{% if include.nav_current == 'publications' %} aria-current="page"{% endif %}>{{ nav_publications }}</a>
+          <div class="lang-toggle" role="group" aria-label="{{ lang_toggle_label }}">
+{% if is_jp %}
+            <span class="lang-option is-active" aria-current="true">JP</span>
+            <span class="lang-separator">/</span>
+            <a class="lang-option" href="{{ include.other_lang_href }}" lang="{{ other_lang_attr }}">{{ other_lang_label }}</a>
+{% else %}
+            <a class="lang-option" href="{{ include.other_lang_href }}" lang="{{ other_lang_attr }}">{{ other_lang_label }}</a>
+            <span class="lang-separator">/</span>
+            <span class="lang-option is-active" aria-current="true">EN</span>
+{% endif %}
+          </div>
+        </nav>
+      </div>
+    </header>

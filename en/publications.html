@@ -1,3 +1,9 @@
+---
+lang: en
+nav_current: publications
+asset_path: ../assets
+other_lang_href: ../jp/publications.html
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,28 +17,7 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="brand" href="index.html">
-          <img src="../assets/kaojyashin.jpg" alt="Portrait of Akira Jinguji">
-          <span>神宮司明良 (AKIRA JINGUJI)</span>
-        </a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path>
-          </svg>
-        </button>
-        <nav class="site-nav" id="primary-navigation" aria-label="Global navigation">
-          <a href="index.html">Home</a>
-          <a href="publications.html" aria-current="page">Publications</a>
-          <div class="lang-toggle" role="group" aria-label="Language toggle">
-            <a class="lang-option" href="../jp/publications.html" lang="ja">JP</a>
-            <span class="lang-separator">/</span>
-            <span class="lang-option is-active" aria-current="true">EN</span>
-          </div>
-        </nav>
-      </div>
-    </header>
+    {% include header.html lang=page.lang nav_current=page.nav_current asset_path=page.asset_path other_lang_href=page.other_lang_href %}
     <main id="main">
       <section class="section pub-section" id="journals">
         <h2>Journals (peer-reviewed)</h2>
@@ -213,8 +198,6 @@
         </ol>
       </section>
     </main>
-    <footer>
-      &copy; 2025 Akira Jinguji
-    </footer>
+    {% include footer.html lang=page.lang %}
   </body>
 </html>

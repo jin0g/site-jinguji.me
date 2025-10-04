@@ -1,0 +1,6 @@
+title: "jinguji.me"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
