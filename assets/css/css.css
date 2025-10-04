@@ -208,9 +208,25 @@ main {
 }
 
 .hero .meta {
+  display: grid;
+  gap: 0.4rem;
   font-size: clamp(1rem, 0.95rem + 0.4vw, 1.2rem);
   color: rgba(226, 244, 255, 0.85);
-  margin-bottom: clamp(0.75rem, 2vw, 1.25rem);
+  margin: 0 0 clamp(0.75rem, 2vw, 1.25rem);
+}
+
+.hero .meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hero .meta span::before {
+  content: '';
+  width: 0.4rem;
+  height: 0.4rem;
+  background: rgba(226, 244, 255, 0.5);
+  border-radius: 50%;
 }
 
 .hero p {
