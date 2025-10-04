@@ -1,5 +1,18 @@
-{% assign is_jp = include.lang == 'jp' %}
-{% if is_jp %}
+{% assign current_lang = include.lang | default: page.lang %}
+{% if current_lang == nil or current_lang == '' %}
+  {% assign current_lang = 'jp' %}
+{% endif %}
+{% if page.url contains '/en/' %}
+  {% assign current_lang = 'en' %}
+{% elsif page.url contains '/jp/' %}
+  {% assign current_lang = 'jp' %}
+{% endif %}
+{% if current_lang == 'jp' %}
+  {% assign is_jp = 'true' %}
+{% else %}
+  {% assign is_jp = 'false' %}
+{% endif %}
+{% if is_jp == 'true' %}
   {% assign nav_home = 'ホーム' %}
   {% assign nav_publications = '業績一覧' %}
   {% assign nav_label = 'グローバルナビゲーション' %}
@@ -33,7 +46,7 @@
           <a href="index.html"{% if include.nav_current == 'index' %} aria-current="page"{% endif %}>{{ nav_home }}</a>
           <a href="publications.html"{% if include.nav_current == 'publications' %} aria-current="page"{% endif %}>{{ nav_publications }}</a>
           <div class="lang-toggle" role="group" aria-label="{{ lang_toggle_label }}">
-{% if is_jp %}
+{% if is_jp == 'true' %}
             <span class="lang-option is-active" aria-current="true">JP</span>
             <span class="lang-separator">/</span>
             <a class="lang-option" href="{{ include.other_lang_href }}" lang="{{ other_lang_attr }}">{{ other_lang_label }}</a>
