@@ -1,0 +1,62 @@
+SECTION: Akira Jinguji, RIKEN, Japan
+- https://www.jinguji.me/
+- https://scholar.google.co.jp/citations?user=ibfLI7IAAAAJ
+
+SECTION: Journals (peer-reviewed)
+- Weakly guiding approximation of a three-dimensional waveguide model for extreme ultraviolet lithography simulation (TBA)
+- Pre-training CNN for fast EUV lithography simulation including M3D effects (TBA)
+- H. Tanabe, A. Jinguji, A. Takahashi, "Accelerating extreme ultravolet lithography simulation with weakly guiding approximation and source position dependent transmission cross coefficient formula", Journal of Micro/Nanopatterning, Mater. Metrol (JM3), (accepted).
+- H. Tanabe, A. Jinguji, A. Takahashi, "Evaluation of Convolutional Neural Network for Fast Extreme Ultraviolet Lithography Simulation using Imec 3 nm Node Mask Patterns", Journal of Micro/Nanopatterning, Materials, and Metrology, Vol. 22, Issue 2, 024201, June 2023.
+- T. Senoo, A. Jinguji, R. Kuramochi, H. Nakahara, "A Multilayer Perceptron Training Accelerator using Systolic Array", IEICE Transactions on Information and Systems, Vol. E105-D, No. 12, pp.2048-2056, December 2022.
+- A. Jinguji, S. Sato, H. Nakahara, "Weight Sparseness for a Feature-Map-Split-CNN Toward Low-Cost Embedded FPGAs", IEICE Transactions on Information and Systems, Vol. E104-D, No. 12, pp. 2040-2047, December 2021.
+- A. Jinguji, S. Sato, H. Nakahara, "An FPGA Realization of a Random Forest with k-means Clustering using a High-level Synthesis Design", IEICE Transactions on Information and Systems, Vol. E101-D, No. 2, pp. 354-362, February 2018.
+
+SECTION: International Conferences (peer-reviewed)
+- A. Jinguji, K. Sano, ”A Comparative Survey of GPUs and ASICs for AI Acceleration”, R-CCS Symposium 2025 (Poster).
+- “A Many-core Architecture for an Ensemble Ternary Neural Network Toward High-Throughput Inference”, (TBA)
+- T. Senoo, R. Kayanoma, A. Jinguji, and H. Nakahara, "A Light-weight Vision Transformer toward Near-Memory Computation on an FPGA", Applied Reconfigurable Computing International Symposium, (ARC 2023), pp. 338-353, September 2023.
+- H. Tanabe, A. Jinguji, A. Takahashi, "Evaluation of CNN for fast EUV lithography simulation using iN3 logic mask patterns." Proc. SPIE 12495, DTCO and Computational Patterning II, 12495-55, March, 2023.
+- T. Senoo, A. Jinguji, R. Kuramochi, H. Nakahara, "A Multilayer Perceptron Training Accelerator using Systolic Array", IEEE Asia Pacific Conf. on Circuits and Systems (APCCAS2021), pp. 77-80, Online, November 2021.
+- Y. Sada, N. Soga, M. Shimoda, A. Jinguji, S. Sato, H. Nakahara, "Fast Monocular Depth Estimation on an FPGA", IEEE International Parallel and Distributed Processing Symposium Workshops (RAW2020), pp. 143-146, Online, May, 2020.
+- A. Jinguji, S. Sato, H. Nakahara, "Tiny On-Chip Memory Realization of Weight Sparseness Split-CNNs on Low-end FPGAs", IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM2020), p. 229, Online, May 2020.
+- H. Nakahara, Q. Zhiqiang, A. Jinguji, W. Luk, "R2CNN: Recurrent Residual Convolutional Neural Network on FPGA", ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA2020), p. 319, Seaside, California, USA, February 2020.
+- Y. Sada, M. Shimoda, A. Jinguji, H. Nakahara, "A Dataflow Pipelining Architecture for Tile Segmentation with a Sparse MobileNet on an FPGA", International Conference on Field-Programmable Technology (FPT2019), pp. 267-270, Tianjin, China, December 2019.
+- A. Jinguji, Y. Sada, H. Nakahara, "Real-Time Multi-Pedestrian Detection in Surveillance Camera using FPGA", International Conference on Field-Programmable Logic and Applications (FPL2019), pp. 424-425, Barcelona, Spain, September 2019.
+- H. Nakahara, Y. Sada, M. Shimoda, K. Sayama, A. Jinguji, S. Sato, "FPGA-based Training Accelerator Utilizing Sparseness of Convolutional Neural Network", International Conference on Field-Programmable Logic and Applications (FPL2019), pp. 180-186, Barcelona, Spain, September 2019.
+- H. Nakahara, A. Jinguji, M. Shimoda, S. Sato, "An FPGA-based Fine-Tuning Accelerator for a Sparse CNN", ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA2019), p. 186, Seaside, California, USA, February 2019.
+- A. Jinguji, T. Fujii, S. Sato, H. Nakahara, "An FPGA Realization of OpenPose based on a Sparse Weight Convolutional Neural Network", International Conference on Field-Programmable Technology (FPT2018), pp. 313-316, Naha, Okinawa, Japan, December 2018.
+- H. Nakahara, A. Jinguji, S. Sato, T. Sasao, "A Random Forest using a Multi-valued Decision Diagram on an FPGA", IEEE International Symposium on Multiple-Valued Logic (ISMVL2017), pp. 266-271, Novi Sad, Serbia, May 2017.
+- H. Nakahara, A. Jinguji, T. Fujii, S. Sato, "An Acceleration of a Random Forest Classification using Altera SDK for OpenCL", International Conference on Field-Programmable Technology (FPT2016), pp. 285-288, Xian, China, December 2016.
+
+SECTION: Japanese Domestic Conferences
+- 山本克治, 神宮司明良, 高橋篤司, "MEDAバイオチップのための液滴運搬経路探索アルゴリズム", DAシンポジウム2023論文集, Vol.2023, pp.173-179, 2023年8月.
+- 神宮司明良, "スパースCNNの要求推論レイテンシに対するレイヤー毎のスパース率の自動設計", DAシンポジウム2022論文集, 三重, 2022年8月.
+- 神宮司明良, 曽我尚人, 中原啓貴, "CNNの低レイテンシ実装に向けた特徴マップと重みの構造的スパース化の提案", リコンフィギャラブルシステム研究会, RECONF2022-22, pp. 95-100, 茨城, 2022年6月.
+- 高嶋優希, 神宮司明良, 中原啓貴, "最終層学習によるDPUの学習機能追加について", リコンフィギャラブルシステム研究会, RECONF2021-67, pp. 55-60, オンライン, 2022年1月.
+- 市川雄樹, 神宮司明良, 倉持亮佑, 中原啓貴, "蒸留とレイヤー枝刈りによるエッジデバイス推論処理の高速化について", リコンフィギャラブルシステム研究会, RECONF2021-66, pp. 49-54, オンライン, 2022年1月.
+- 妹尾豪士, 神宮司明良, 倉持亮佑, 中原啓貴, "シストリックアレイによる多層パーセプトロンの学習アクセラレータについて", リコンフィギャラブルシステム研究会, RECONF2021-31, pp. 37-42, オンライン, 2021年12月.
+- 神宮司明良, 中原啓貴, "gMLPを用いた画像認識向けDNNアクセラレータのFPGA実装", リコンフィギャラブルシステム研究会, RECONF2021-29, pp. 25-30, オンライン, 2021年12月.
+- 神宮司明良, 中原啓貴, "高位合成を用いたマルチコア構成のニューラルネットワークのFPGA実装", リコンフィギャラブルシステム研究会, RECONF2021-18, pp. 7-12, オンライン, 2021年9月.
+- 佐山功起, 神宮司明良, 曽我尚人, 中原啓貴, "解像度に基づくスケールが可能なCNNアクセラレータのFPGA実現に関して", リコンフィギャラブルシステム研究会, RECONF2020-68, pp. 58-62, オンライン, 2021年1月.
+- 神宮司明良, 佐藤真平, 中原啓貴, "Wide-SIMDを用いたISAベースのスパースCNNのFPGA実装", リコンフィギャラブルシステム研究会, RECONF2019-37, pp. 9-14, 愛媛, 2019年11月.
+- 神宮司明良, 下田将之, 中原啓貴, "特徴マップを空間分割したCNNのFPGAにおける小メモリ実装について", リコンフィギャラブルシステム研究会, RECONF2019-16, pp. 85-90, 東京, 2019年5月.
+- 神宮司明良, 下田将之, 中原啓貴, "特徴マップを空間分割したCNNのFPGAにおける小メモリ実装", VLSI設計技術研究会, VLD2018-94, pp. 7-12, 沖縄, 2019年3月.
+- 神宮司明良, 佐藤真平, 中原啓貴, "Feature-Map Separable Convolutionによる小メモリFPGAでの画像認識の実現", リコンフィギャラブルシステム研究会, RECONF2018-41, pp. 39-44, 広島, 2018年12月.
+- 神宮司明良, 佐藤真平, 中原啓貴, "特徴空間の分割にk平均法を導入したランダムフォレストのFPGA実装", 第30回多値論理とその応用研究会, 金沢, 2017年1月.
+- 中原啓貴, 神宮司明良, 佐藤真平, 笹尾勤, 丸山直也, "多値決定グラフを用いたランダムフォレストに関して", 第39回多値論理フォーラム, 多値論理研究ノート第39巻, 岩手, 2016年9月.
+- 中原啓貴, 神宮司明良, 藤井智也, 佐藤真平, 丸山直也, "Altera SDK for OpenCLを用いた組込みメモリに基づくランダムフォレストによる分類について", リコンフィギャラブルシステム研究会, Vol. 116, No. 210, pp. 57-62, 富山, 2016年9月.
+- 中原啓貴, 神宮司明良, 藤井智也, 佐藤真平, 丸山直也, "Altera SDK for OpenCLを用いたランダムフォレストによる分類の高速化", コンピュータシステム研究会, CPSY2016-25, Vol. 116, No. 177, pp. 175-180, 長野, 2016年8月.
+
+SECTION: Awards
+- リコンフィギャラブルシステム研究会 若手優秀講演賞, 題名："高位合成を用いたマルチコア構成のニューラルネットワークのFPGA実装", 電子情報通信学会リコンフィギャラブルシステム研究会, 2022年1月.
+- デザインガイア 優秀ポスター発表賞, 題名："gMLPを用いた画像認識向けDNNアクセラレータのFPGA実装", 電子情報通信学会デザインガイアポスター賞選奨実行委員会, 2021年12月.
+- リコンフィギャラブルシステム研究会 若手優秀講演賞, 題名："Feature-Map Separable Convolutionによる小メモリFPGAでの画像認識の実現", 電子情報通信学会リコンフィギャラブルシステム研究会, 2019年1月.
+
+SECTION: Research Grants
+- Googleシリコンリサーチ助成金, 共同代表(小島 拓也, 神宮司 明良), R6〜R7年度, "Sparsity-aware Coarse-grained Reconfigurable Accelerator", 受入総額: $30,000.
+- 科研費 基盤B, 分担(中原 啓貴, 神宮司 明良), R6～R10年度, "Binary Vision Transformer の専用ハードウェアに関する研究", 受入総額: 13,000千円.
+- 企業との共同研究(NDAにつき非公開), 2023年4月-2024年3月.
+- 東京工業大学 工学院助教インセンティブ研究経費, 題名："深層学習のための高効率なスパース行列計算機の設計に関する研究", 総額55万円, 代表, 2022年10月-2023年3月.
+- 企業との共同研究(NDAにつき非公開), 2022年4月-2023年3月.
+- 日本学術振興会 科学研究費 特別研究員奨励費, 題名："静的と動的な枝刈りを組み合わせた高速なCNNシステムの実現", 総額310万円, 代表, 2020年4月-2022年3月.
+
